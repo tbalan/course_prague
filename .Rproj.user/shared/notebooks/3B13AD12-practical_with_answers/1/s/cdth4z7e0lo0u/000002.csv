@@ -1,0 +1,7 @@
+"0","try(mod_cal_strat <- coxph(Surv(tstart, tstop, status) ~ sex + treat + age + inherit + 
+                   steroids + propylac + strata(id), 
+                 ties = ""breslow"", cgd))
+"
+"2","Error in fitter(X, Y, strats, offset, init, control, weights = weights,  : 
+  routine failed due to numeric overflow.This should never happen.  Please contact the author.
+"
