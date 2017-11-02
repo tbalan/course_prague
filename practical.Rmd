@@ -2,9 +2,9 @@
 title: "Frailty Models: Theory & Practice  \nComputer Practical"
 author: "Theodor Balan and Hein Putter"
 date: "11/3/2017"
-output: 
-  html_document:
-    keep_md: true
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}

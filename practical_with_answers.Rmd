@@ -4,9 +4,7 @@ author: "Theodor Balan and Hein Putter"
 date: "11/3/2017"
 output:
   pdf_document: default
-  html_document:
-    df_print: paged
-    keep_md: yes
+  html_document: default
 always_allow_html: yes
 ---
 
